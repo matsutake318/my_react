@@ -1,28 +1,35 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header {
+    margin-bottom:40px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+ul {
+    list-style: none;
 }
 
-.App-title {
-  font-size: 1.5em;
+nav ul {
+    display:flex;
 }
 
-.App-intro {
-  font-size: large;
+nav ul li {
+    margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.kakikomi {
+    border: 1px solid #888;
+    padding:20px;
+    margin-bottom: 40px;
+}
+
+.kakikomi div {
+}
+
+.kakikomi .name {
+    font-size:0.8em;
+    color: #555;
 }
